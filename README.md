@@ -9,7 +9,7 @@ From the EmpatheticConversations database, we provide the steps to replicate the
 
 1. Use the EmpatheticConversations.xlsx file in addition to the Main_Representation_Preparation code to prepare the databse into a form that separates the individual features.
    Each data point represents a text utterance comprised of the following features.
-   ![image](https://github.com/Dregdael/Empathy_Classification_PBC4cip/assets/43532146/2721e7f8-614b-4dbc-b699-ffa37820a10d)
+   https://pub.mdpi-res.com/applsci/applsci-12-09407/article_deploy/html/images/applsci-12-09407-g005.png?1663830566
 3. Separate the data into five folds using the Waikato Environment for Knowledge Analysis (WEKA): https://www.cs.waikato.ac.nz/ml/weka
    We have decided to provide our own folds, they can be found in the "Folds" folder.
    The folds must be separated into training and testing data presenting the following format:
