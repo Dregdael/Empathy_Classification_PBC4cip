@@ -16,7 +16,7 @@ From the EmpatheticConversations database, we provide the steps to replicate the
   *   Empathyabase-'+(number of fold)+'tra.csv  for the training set
   *   Empathyabase-'+(number of fold)+'tst.csv  for the test set
    We provide the .arff and .csv files for each of our folds.
-5. Carry out classification.
+3. Carry out classification.
    It is possible to carry out classification accross all folds and obtain the following average metrics for each classifier:
     * Accuracy
     * Recall
@@ -32,7 +32,9 @@ From the EmpatheticConversations database, we provide the steps to replicate the
   The credit for this thesis work goes: 
 
   Author: Edwin Carlos Montiel Vázquez
+
   Advisor: Dr. Jorge Adolfo Ramírez Uresti
+
   Co-Advisor: Dr. Octavio Loyola González 
 
    [1] Enrique Amigo, Julio Gonzalo, Stefano Mizzaro, and Jorge Carrillo-de-Albornoz. 2020. An Effectiveness Metric for Ordinal Classification: Formal Properties and Experimental Results. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 3938–3949, Online. Association for Computational Linguistics.
