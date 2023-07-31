@@ -171,8 +171,8 @@ df
 tax_array = []
 
 
-for i in range(len(df8['Tax_array'])):
-  for y in df8['Tax_array'][i]:
+for i in range(len(df['Tax_array'])):
+  for y in df['Tax_array'][i]:
     tax_array.append(y)
 #tax_array
 
