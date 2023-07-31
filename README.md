@@ -27,7 +27,7 @@ From the EmpatheticConversations database, we provide the steps to replicate the
   We used these confusion matrices to calculate the Closeness Evaluation Measure [1] in an attached excel file for each Fold.
 
   We recommend carrying out the classification task of PBC4cip per Fold using the WEKA implementation of the classifier, as found in Dr. Octavio Loyola-González website: https://octavioloyola.info/papers/PBC4cip/index.html
-  For this, it is possible to use the .arff folds found in this repository. This is because the Python implementation found in this code can take some time to run. 
+  For this, use the .arff folds found in this repository. This is because the Python implementation found in this code can take some time to run. 
 
   This work was developed as the Master's thesis work of Mr. Edwin Carlos Montiel Vázquez at Instituto Tecnológico y de Estudios Superiores de Monterrey, Estado de México Campus. 
   The credit for this thesis work goes: 
