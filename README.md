@@ -22,6 +22,7 @@ From the EmpatheticConversations database, we provide the steps to replicate the
     * Recall
     * AUC
     * Precision
+      
   Nevertheless, we also provide the code for carrying out classification test for each of the folds, in which we can also obtain confusion matrices.
   We used these confusion matrices to calculate the Closeness Evaluation Measure [1] in an attached excel file for each Fold.
 
@@ -39,5 +40,5 @@ From the EmpatheticConversations database, we provide the steps to replicate the
 
    [1] Enrique Amigo, Julio Gonzalo, Stefano Mizzaro, and Jorge Carrillo-de-Albornoz. 2020. An Effectiveness Metric for Ordinal Classification: Formal Properties and Experimental Results. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 3938–3949, Online. Association for Computational Linguistics.
 
-#License
+# License
    Please refer to the license file in the repository for information of the license.
