@@ -7,12 +7,12 @@ In this repository, there is the necessary code and databases to replicate the w
 
 From the EmpatheticConversations database, we provide the steps to replicate the work as follows: 
 
-1. Use the EmpatheticConversations.xlsx file in addition to the Main_Representation_Preparation code to prepare the databse into a form that separates the individual features.
-   Each data point represents a text utterance comprised of the following features.
+1. Use the EmpatheticConversations.xlsx file in addition to the Main_Representation_Preparation code to prepare the database into a form that separates the individual features.
+   Each data point represents a text utterance comprised of the following features:
    https://pub.mdpi-res.com/applsci/applsci-12-09407/article_deploy/html/images/applsci-12-09407-g005.png?1663830566
 3. Separate the data into five folds using the Waikato Environment for Knowledge Analysis (WEKA): https://www.cs.waikato.ac.nz/ml/weka
    We have decided to provide our own folds, they can be found in the "Folds" folder.
-   The folds must be separated into training and testing data presenting the following format:
+   The folds must be separated into training and testing data using the following format:
   *   Empathyabase-'+(number of fold)+'tra.csv  for the training set
   *   Empathyabase-'+(number of fold)+'tst.csv  for the test set
    We provide the .arff and .csv files for each of our folds.
@@ -23,7 +23,7 @@ From the EmpatheticConversations database, we provide the steps to replicate the
     * AUC
     * Precision
       
-  Nevertheless, we also provide the code for carrying out classification test for each of the folds, in which we can also obtain confusion matrices.
+  Nevertheless, we also provide the code for carrying out classification tests for each of the folds, in which we can also obtain confusion matrices.
   We used these confusion matrices to calculate the Closeness Evaluation Measure [1] in an attached excel file for each Fold.
 
   We recommend carrying out the classification task of PBC4cip per Fold using the WEKA implementation of the classifier, as found in Dr. Octavio Loyola-González website: https://octavioloyola.info/papers/PBC4cip/index.html
