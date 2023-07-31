@@ -1,4 +1,4 @@
-![f2r30zxckeeb1](https://github.com/Dregdael/Empathy_Classification_PBC4cip/assets/43532146/e502f68b-7f6c-426e-9bce-b66e6ce0c86a)# Empathy_Classification_PBC4cip
+# Empathy_Classification_PBC4cip
 
 A repository for classification experiments regarding the use of PBC4cip for empathy classification using the EmpatheticConversations(EC) database
 
