@@ -1,0 +1,55 @@
+RandomForestClassifier
+
+Average Accuracy: 0.4956268221574344
+
+Average Recall: 0.4956268221574344
+
+Average AUC: 0.6199422190206081
+
+Average Precision: 0.7389958187297163
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+KNeighborsClassifier
+
+Average Accuracy: 0.43731778425655976
+
+Average Recall: 0.43731778425655976
+
+Average AUC: 0.5614494864519831
+
+Average Precision: 0.4888206807738072
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GaussianNB
+
+Average Accuracy: 0.13411078717201166
+
+Average Recall: 0.13411078717201166
+
+Average AUC: 0.5251042364050195
+
+Average Precision: 0.3585767272909395
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DecisionTreeClassifier
+
+Average Accuracy: 0.446064139941691
+
+Average Recall: 0.446064139941691
+
+Average AUC: 0.5664629841960663
+
+Average Precision: 0.4598719458422766
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MLPClassifier
+
+Average Accuracy: 0.4868804664723032
+
+Average Recall: 0.4868804664723032
+
+Average AUC: 0.592495491919117
+
+Average Precision: 0.663718339579873
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
