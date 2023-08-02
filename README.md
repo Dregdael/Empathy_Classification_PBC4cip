@@ -29,6 +29,20 @@ From the EmpatheticConversations database, we provide the steps to replicate the
   We recommend carrying out the classification task of PBC4cip per Fold using the WEKA implementation of the classifier, as found in Dr. Octavio Loyola-González website: https://octavioloyola.info/papers/PBC4cip/index.html
   For this, use the .arff folds found in this repository. This is because the Python implementation found in this code can take some time to run. 
 
+#Individual utterance empathy testing
+
+  We have included a folder that allows a user to individually test the empathy levels present in a single utterance. The steps to carry out this task is as follows: 
+
+  1. Train the PBC4cip classifier using the jupyter notebook "Full_database_PBC4cip_training" file.
+
+      We provide our own already trained classifier in the repository with the name: trained_pbc4cip.sav. If you wish to use it you may skip this step. 
+   
+  2. Run the jupyter notebook file "testing_trained_pbc4cip".
+      You will be presented with a prompt and you might answer with the utterance you feel appropriate, the classifier will predict the levels of empathy in your utterance. 
+      NOTE: This will require that you run individually the steps to carry out the database processing. We provide access to our own license of paralleldots as an example in the code. You might need to run the paralleldots data retrieval sections multiple times until no errors are found. Please use your own paralleldots license. The license in the repository is not for commercial uses.
+  3. You will obtain a predicted value for the levels of empathy in your utterance.  
+
+
   This work was developed as the Master's thesis work of Mr. Edwin Carlos Montiel Vázquez at Instituto Tecnológico y de Estudios Superiores de Monterrey, Estado de México Campus. 
   The credit for this thesis work goes: 
 
