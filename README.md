@@ -29,7 +29,7 @@ From the EmpatheticConversations database, we provide the steps to replicate the
   We recommend carrying out the classification task of PBC4cip per Fold using the WEKA implementation of the classifier, as found in Dr. Octavio Loyola-González website: https://octavioloyola.info/papers/PBC4cip/index.html
   For this, use the .arff folds found in this repository. This is because the Python implementation found in this code can take some time to run. 
 
-#Individual utterance empathy testing
+# Individual utterance empathy testing
 
   We have included a folder that allows a user to individually test the empathy levels present in a single utterance. The steps to carry out this task is as follows: 
 
