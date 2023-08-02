@@ -343,4 +343,8 @@ df12 = df12.drop(columns=['context','context_encoded'])
 We finally output the processed csv that will be used to carry out the classification task
 """
 
+df.rename(columns = {'ARTS & CULTURE':'ARTS&CULTURE'}, inplace = True)
+df.rename(columns = {'HEALTHY LIVING':'HEALTHYLIVING'}, inplace = True)
+df
+
 df.to_csv('Empathyabase.csv', index = False)
